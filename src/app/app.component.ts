@@ -5,6 +5,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { LanguageComponent } from './language/language.component';
+import { InterestsComponent } from './interests/interests.component';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,8 @@ import { LanguageComponent } from './language/language.component';
      WorkExperienceComponent,
      EducationComponent,
      SkillsComponent,
-    LanguageComponent,],
+     LanguageComponent,
+     InterestsComponent,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
